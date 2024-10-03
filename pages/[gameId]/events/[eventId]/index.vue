@@ -9,7 +9,7 @@ useBreadcrumbItems({
     undefined,
     undefined,
     {
-      to: '/test/events/test-2',
+      to: '/cs/events/test',
       label: 'This is the event name I want'
     }
   ]
