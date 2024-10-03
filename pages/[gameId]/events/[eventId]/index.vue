@@ -3,6 +3,9 @@
 </template>
 
 <script lang="ts" setup>
+// const data = await $fetch('...');
+// const dynamicPageName = `${data?.value?.pageName}`;
+const dynamicPageName = 'This is the event name I want';
 useBreadcrumbItems({
   overrides: [
     undefined,
@@ -10,7 +13,7 @@ useBreadcrumbItems({
     undefined,
     {
       to: '/cs/events/test',
-      label: 'This is the event name I want'
+      label: dynamicPageName
     }
   ]
 });
